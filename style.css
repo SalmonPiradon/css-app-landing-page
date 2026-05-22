@@ -2,20 +2,13 @@
 /* Dev 1 : Nav Bar + Hero Section */
 
 /* Dev 2 : Feature Section */
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: "Inter", sans-serif;;
-}
-
 .feature-section {
   display: flex;
   width: 100vw;
   justify-content: center;
 }
 
-.card {
+.feature-cards {
   display: flex;
   width: 1201px;
   height: 272px;
@@ -24,7 +17,7 @@
   gap: 20px;
 }
 
-.box {
+.feature-box {
   display: flex;
   flex-direction: column;
   width: 387px;
@@ -34,41 +27,40 @@
   gap: 20px;
 }
 
-.box-1 {
+.feature-box--1 {
   background-color: #D7E5F6;
 }
 
-.box-2 {
+.feature-box--2 {
   background-color: #D8E0FC;
 }
 
-.box-3 {
+.feature-box--3 {
   background-color: #E8DCF6;
 }
 
-.headline {
+.feature-headline {
   font-size: 24px;
   font-weight: 600;
 }
 
-.content {
+.feature-content {
   font-size: 16px;
   font-weight: 500;
   color: #5F5F76;
 }
 
-img {
+.feature-section img {
   width: 60px;
   height: 60px;
   margin-bottom: 20px;
 }
 
-.text {
+.feature-text {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
 
 
 /* Dev 3 : Contact Section */
